@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    font-family: 'inter';
+}
+#menuSuperior {
+    background-image: url(./imgs/planodefundo.svg);
+    color: aliceblue;
+}
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#tituloMenuSuperior {
+    margin-left: 150px;
+    margin-top: 75px;
+}
+#textoMenuSuperior {
+    margin-left: 150px;
+    padding-bottom: 100px;
+}
+#menuInformational {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icons {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+.textoInformativo {
+    display: flex;
+    align-items: center;
+}
+#sessaoVideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#tituloVideo {
+    margin-top: 50px;
+    color: #247BA0;
+}
+#textoVideo {
+    margin-top: 50px;
+}
+#video {
+    margin: 50px 25px 50px 100px;
+    border-radius: 10px;
+}
+#carrossel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+#tituloCarrossel {
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+}
+.cards {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#setasEsquerda {
+    display: none;
+}
+#samantha {
+    display: none;
+}
+.setas {
+    margin-top: 100%;
+    cursor: pointer;
+}
+.setas:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.75;
+}
+#formulario {
+    text-align: center;
+
+}
+#tituloFormulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+input {
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin:15px;
+    border:0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button {
+    background-color: #247BA0;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    flex-shrink: 0;
+    color: aliceblue;
+    font-size: 20px;
+    border: 0px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #318fb8;
+    color: aliceblue;
+    transform: translateY(-7px);
+    transition-duration: 0.75;
+    box-shadow: 0px 15px 20px #38383873;
+}
